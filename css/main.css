@@ -297,6 +297,7 @@ a {
 /*************************/
 /***** MEDIA QUERIES *****/
 /*************************/
+/*** FOR PHONES ***/
 @media only screen and (max-width: 768px) {
   .main-wrap {
     margin-left: 5px;
