@@ -1,0 +1,67 @@
+/****************/
+/*****NAVBAR*****/
+/****************/
+
+.navbar img, .navbar-services img {
+    width: $logo-size;
+    height: $logo-size;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: burlywood;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    width: auto;
+    padding-left: 2rem;
+}
+
+.logo-Navbar {
+    display: flex;
+    align-items: flex-start;
+    grid-area: head;
+    transition: all 2s;
+}
+
+.logo-Navbar:hover {
+    transform: rotate(90deg);
+    transform: rotate(180deg);
+    transform: rotate(270deg);
+    transform: rotate(360deg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-links {
+    font-size: $font-size;
+    text-transform: uppercase;
+}
+
+.social-Icons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important ;
+    margin-right: 40px;
+
+    a {
+        padding: 10px;
+    }
+
+    img {
+        width: $logo-size/2;
+        height: $logo-size/2;
+    }
+} 

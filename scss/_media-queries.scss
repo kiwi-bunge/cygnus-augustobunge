@@ -1,0 +1,164 @@
+/*************************/
+/***** MEDIA QUERIES *****/
+/*************************/
+
+@media only screen and (max-width: 768px) {
+    
+    .main-wrap {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /*** HEADER ***/
+
+
+    .container-main-banner {
+        margin-top: 15px;
+        height: 400px;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .logotipo img {
+        width: 50%;
+    }
+
+    .social-Icons {
+        display: none;
+    }
+
+    .view-projects-button {
+        padding: 10px;
+    }
+
+    /*** WHAT WE DO ***/
+
+    .what-we-do {
+        display: block;
+    }
+
+    .flex-container-description {
+        width: auto;
+        margin-top: 10px;
+        padding: 30px;
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .what-we-do-button {
+        padding: 10px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .what-we-do-examples {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 15px;
+        
+        img {
+            width: auto;
+            height: 30rem;
+            margin: 10px;
+        }
+    }
+
+    /*** OUR VALUES ***/
+
+    .first-value, .second-value, .third-value {
+        width: auto;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+
+    /*** SERVICES ***/
+
+    .carousel-container {
+        margin-top: 25px
+    }
+
+    /*** ABOUT US ***/
+
+    .main-about-us .container-fluid {
+        padding: 0;
+        
+        .row {
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    }
+
+    .about-us-text {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    /*** CONTACT ***/
+
+    .background-contact {
+        height: 40rem;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .form-box {
+            padding: 2rem;
+            
+           #email-input {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            #comment-input {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+        }
+    }
+
+    /*** FOOTER ***/
+
+    .footer-links  {
+        font-size: ($font-size)-5;
+
+        li a {
+            font-size: $font-size/2;
+        }
+
+        img {
+            width: $logo-size/2;
+            height: $logo-size/2;
+            padding: 5px;
+        }
+
+        .disclosure {
+            display: none;
+        }
+    }
+
+    .footer-social img {
+        padding: 10px;
+    }

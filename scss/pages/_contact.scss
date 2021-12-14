@@ -1,0 +1,54 @@
+/*****************/
+/*****CONTACT*****/
+/*****************/
+
+.background-contact {
+    background-image: url(../public/img/background-contact.webp);
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+    margin-bottom: 50px;
+    
+    h1 {
+        text-align: center;
+        font-size: 5rem;
+        color: white;
+        padding-top: 15rem;
+    }
+
+
+/***** CONTACT FORM *****/
+
+
+    .form-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        #email-input {
+            height: auto;
+            width: 50rem;
+        }
+
+        #comment-input {
+            width: 50rem;
+        }
+
+        #submit-button {
+            background-color: burlywood;
+            color: white;
+            font-size: larger;
+            border: solid 0.2rem white;
+            margin-top: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+/******************/
+/*****ABOUT US*****/
+/******************/
+
+.main-about-us {
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+    .container-fluid {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    h1 {
+        margin-right: auto;
+        margin-left: auto;
+        width: max-content;
+        margin-bottom: 50px;
+    }
+
+    img {
+        height: 30rem;
+        width: 25rem;
+    }
+}    
+
+.about-us-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    width: 20rem;
+
+    p {
+        margin: 2rem;
+    }
+}

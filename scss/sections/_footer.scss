@@ -1,0 +1,44 @@
+/****************/
+/*****FOOTER*****/
+/****************/
+
+.footer-container {
+    padding: 15px;
+    background-color: $color-main;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        display: flex;
+        color: black;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+}
+
+.footer-social {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        width: 30px;
+        padding: 20px;
+    }
+}
+
+.disclosure p {
+    display: flex;
+    margin: 10px;
+    width: auto;
+}

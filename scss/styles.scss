@@ -1,0 +1,56 @@
+/********************/
+/*****STYLESHEET*****/
+/********************/
+
+// VARIABLES //
+
+@import "variables.scss";
+
+// MIXINS //
+
+@import "mixins.scss";
+
+// GENERAL //
+
+@import "general.scss";
+
+// NAVBAR //
+
+@import "sections/nav.scss";
+
+// MAIN BANNER //
+
+@import "sections/main-banner";
+
+/**************/
+/*****MAIN*****/
+/**************/
+
+// DESCRIPTION //
+
+@import "sections/description";
+
+// VALUES //
+
+@import "sections/values.scss";
+
+// SERVICES //
+
+@import "pages/services";
+
+// ABOUT US //
+
+@import "pages/about-us";
+
+// CONTACT //
+
+@import "pages/contact.scss";
+
+// FOOTER //
+
+@import "sections/footer.scss";
+
+// MEDIA QUERIES //
+
+@import "media-queries";
+

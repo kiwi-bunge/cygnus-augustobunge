@@ -1,0 +1,33 @@
+/********************/
+/*****OUR VALUES*****/
+/********************/
+
+.values-container {
+    @include container-paddings(20px, 20px);
+}
+
+.values-logo {
+    display: block;
+    width: $logo-size;
+    height: $logo-size;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.first-value, .second-value, .third-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    h2 {
+        margin: 20px;
+    }
+
+    p {
+        text-align: center;
+        margin: 30px;
+    }
+}

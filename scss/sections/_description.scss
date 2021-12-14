@@ -1,0 +1,63 @@
+/********************/
+/*****WHAT WE DO*****/
+/********************/
+
+.what-we-do {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+
+.flex-container-description {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    transition: box-shadow 0.5s;
+
+    h2 {
+        font-size: $font-size+25;
+        padding-bottom: 2rem;
+    }
+
+    p {
+        font-size: $font-size;
+        padding: 1rem;
+    }
+}
+
+.what-we-do-examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+    img {
+        width: 500px;
+        height: 700px;
+        transition: all 1s;
+    }
+}
+
+
+.what-we-do-examples img:hover {
+    transform: scale(1.1);
+}
+
+.what-we-do-button {
+    border: $border;
+    padding: 15px;
+    box-shadow: 2px 2px $color-main;
+
+    a {
+        color: black;
+        font-size: ($font-size)-5; 
+    }
+}
