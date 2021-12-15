@@ -35,13 +35,13 @@
 .what-we-do-examples {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 50px;
     padding-bottom: 25px;
 
     img {
-        width: 500px;
-        height: 700px;
+        width: 20rem;
+        margin: 5px;
         transition: all 1s;
     }
 }

@@ -11,9 +11,7 @@ body {
   margin: 0; }
 
 .main-wrap {
-  background-color: white;
-  margin-left: 50px;
-  margin-right: 50px; }
+  background-color: white; }
 
 header {
   background-color: rgba(255, 255, 255, 0.884); }
@@ -58,14 +56,14 @@ a {
 
 .menu-links {
   font-size: 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: end; }
 
 .social-Icons {
   width: auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end !important;
-  margin-right: 40px; }
+  justify-content: flex-end !important; }
   .social-Icons a {
     padding: 10px; }
   .social-Icons img {
@@ -81,7 +79,7 @@ a {
   background-position: center;
   background-color: rgba(255, 255, 255, 0.233);
   background-blend-mode: color;
-  height: 850px;
+  height: 45rem;
   width: auto;
   align-items: center;
   flex-direction: column; }
@@ -90,10 +88,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px; }
+  padding-top: 5rem; }
   .logotipo img {
-    width: 40%;
-    height: 40%; }
+    width: 50%;
+    height: 50%; }
 
 .view-projects-button {
   display: flex;
@@ -147,12 +145,12 @@ a {
 .what-we-do-examples {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 50px;
   padding-bottom: 25px; }
   .what-we-do-examples img {
-    width: 500px;
-    height: 700px;
+    width: 20rem;
+    margin: 5px;
     transition: all 1s; }
 
 .what-we-do-examples img:hover {
@@ -188,10 +186,18 @@ a {
   align-items: center;
   margin: 20px; }
   .first-value h2, .second-value h2, .third-value h2 {
+    text-align: center;
     margin: 20px; }
   .first-value p, .second-value p, .third-value p {
     text-align: center;
     margin: 30px; }
+
+.third-value h2 {
+  text-align: center;
+  margin-top: 0; }
+
+.third-value p {
+  margin-top: 15px; }
 
 /******************/
 /*****SERVICES*****/
@@ -298,14 +304,16 @@ a {
 /***** MEDIA QUERIES *****/
 /*************************/
 /*** FOR PHONES ***/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 490px) {
   .main-wrap {
     margin-left: 5px;
     margin-right: 5px; }
   /*** HEADER ***/
+  .container-main-banner .logotipo {
+    padding-top: 3rem; }
   .container-main-banner {
     margin-top: 15px;
-    height: 400px; }
+    height: 18rem; }
   .navbar {
     display: block; }
   .logotipo img {
@@ -335,7 +343,7 @@ a {
     padding-top: 15px; }
     .what-we-do-examples img {
       width: auto;
-      height: 30rem;
+      height: auto;
       margin: 10px; }
   /*** OUR VALUES ***/
   .first-value, .second-value, .third-value {
@@ -355,41 +363,421 @@ a {
     .main-about-us .container-fluid img {
       display: block;
       margin: 0;
-      padding: 0; } }
+      padding: 0; }
+  .about-us-text {
+    display: block;
+    width: auto;
+    padding: 0;
+    text-align: center; }
+  /*** CONTACT ***/
+  .background-contact {
+    height: 30rem; }
+    .background-contact h1 {
+      font-size: 2rem;
+      padding-top: 5rem; }
+    .background-contact .form-box {
+      padding: 2rem; }
+      .background-contact .form-box #email-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+      .background-contact .form-box #comment-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+  /*** FOOTER ***/
+  .footer-links {
+    font-size: 15px; }
+    .footer-links li a {
+      font-size: 10px; }
+    .footer-links img {
+      width: 30px;
+      height: 30px;
+      padding: 5px; }
+    .footer-links .disclosure {
+      display: none; }
+  .footer-social img {
+    padding: 10px; } }
 
-.about-us-text {
-  display: block;
-  width: auto;
-  padding: 0;
-  text-align: center; }
-
-/*** CONTACT ***/
-.background-contact {
-  height: 40rem; }
-  .background-contact h1 {
-    font-size: 2rem; }
-  .background-contact .form-box {
-    padding: 2rem; }
-    .background-contact .form-box #email-input {
-      width: auto;
-      margin-left: auto;
-      margin-right: auto; }
-    .background-contact .form-box #comment-input {
-      width: auto;
-      margin-left: auto;
-      margin-right: auto; }
-
-/*** FOOTER ***/
-.footer-links {
-  font-size: 15px; }
-  .footer-links li a {
-    font-size: 10px; }
-  .footer-links img {
-    width: 30px;
-    height: 30px;
-    padding: 5px; }
-  .footer-links .disclosure {
+@media only screen and (min-width: 491px) and (max-width: 600px) {
+  .main-wrap {
+    margin-left: 5px;
+    margin-right: 5px; }
+  /*** HEADER ***/
+  .container-main-banner {
+    margin-top: 15px;
+    height: 25rem; }
+  .navbar {
+    display: block; }
+  .logotipo img {
+    width: 50%; }
+  .social-Icons {
     display: none; }
+  .view-projects-button {
+    padding: 10px; }
+  /*** WHAT WE DO ***/
+  .what-we-do {
+    display: block; }
+  .flex-container-description {
+    width: auto;
+    margin-top: 10px;
+    padding: 30px; }
+    .flex-container-description p {
+      font-size: 15px; }
+    .flex-container-description h2 {
+      font-size: 25px; }
+  .what-we-do-button {
+    padding: 10px; }
+    .what-we-do-button a {
+      font-size: 12px; }
+  .what-we-do-examples {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px; }
+    .what-we-do-examples img {
+      width: auto;
+      height: auto;
+      margin: 10px; }
+  /*** OUR VALUES ***/
+  .first-value, .second-value, .third-value {
+    width: auto;
+    padding: 10px 0 10px 0;
+    margin: 0; }
+  /*** SERVICES ***/
+  .carousel-container {
+    margin-top: 25px; }
+  /*** ABOUT US ***/
+  .main-about-us .container-fluid {
+    padding: 0; }
+    .main-about-us .container-fluid .row {
+      width: 100%;
+      margin: auto;
+      justify-content: center; }
+    .main-about-us .container-fluid img {
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .about-us-text {
+    display: block;
+    width: auto;
+    padding: 0;
+    text-align: center; }
+  /*** CONTACT ***/
+  .background-contact {
+    height: 30rem; }
+    .background-contact h1 {
+      font-size: 3rem;
+      padding-top: 5rem; }
+    .background-contact .form-box {
+      padding: 2rem; }
+      .background-contact .form-box #email-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+      .background-contact .form-box #comment-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+  /*** FOOTER ***/
+  .footer-links {
+    font-size: 15px; }
+    .footer-links li a {
+      font-size: 10px; }
+    .footer-links img {
+      width: 30px;
+      height: 30px;
+      padding: 5px; }
+    .footer-links .disclosure {
+      display: none; }
+  .footer-social img {
+    padding: 10px; } }
 
-.footer-social img {
-  padding: 10px; }
+/*** FOR TABLETS & LARGE PHONES ***/
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .main-wrap {
+    margin-left: 5px;
+    margin-right: 5px; }
+  /*** HEADER ***/
+  .container-main-banner {
+    margin-top: 15px;
+    height: 25rem; }
+  .navbar {
+    display: block; }
+  .logotipo img {
+    width: 50%; }
+  .social-Icons {
+    display: none; }
+  .view-projects-button {
+    padding: 10px; }
+  /*** WHAT WE DO ***/
+  .what-we-do {
+    display: block; }
+  .flex-container-description {
+    width: auto;
+    margin-top: 10px;
+    padding: 30px; }
+    .flex-container-description p {
+      font-size: 15px; }
+    .flex-container-description h2 {
+      font-size: 25px; }
+  .what-we-do-button {
+    padding: 10px; }
+    .what-we-do-button a {
+      font-size: 12px; }
+  .what-we-do-examples {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px; }
+    .what-we-do-examples img {
+      width: auto;
+      height: auto;
+      margin: 10px; }
+  /*** OUR VALUES ***/
+  .first-value, .second-value, .third-value {
+    width: auto;
+    padding: 10px 0 10px 0;
+    margin: 0; }
+  .third-value h2 {
+    text-align: center;
+    margin-top: 0; }
+  .third-value p {
+    margin-top: 15px; }
+  /*** SERVICES ***/
+  .carousel-container {
+    margin-top: 25px; }
+  /*** ABOUT US ***/
+  .main-about-us .container-fluid {
+    padding: 0; }
+    .main-about-us .container-fluid .row {
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center; }
+    .main-about-us .container-fluid img {
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .about-us-text {
+    display: block;
+    width: auto;
+    padding: 0;
+    text-align: center; }
+  /*** CONTACT ***/
+  .background-contact {
+    height: 35rem; }
+    .background-contact h1 {
+      font-size: 3rem;
+      padding-top: 6rem; }
+    .background-contact .form-box {
+      padding: 2rem; }
+      .background-contact .form-box #email-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+      .background-contact .form-box #comment-input {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; }
+  /*** FOOTER ***/
+  .footer-links {
+    font-size: 15px; }
+    .footer-links li a {
+      font-size: 10px; }
+    .footer-links img {
+      width: 30px;
+      height: 30px;
+      padding: 5px; }
+    .footer-links .disclosure {
+      display: none; }
+  .footer-social img {
+    padding: 10px; } }
+
+/*** MEDIUM DEVICES ***/
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /*** HEADER ***/
+  .container-main-banner {
+    margin-top: 15px;
+    height: 30rem; }
+  .navbar {
+    display: block; }
+  .logotipo img {
+    width: 50%; }
+  .social-Icons {
+    display: none; }
+  .view-projects-button {
+    padding: 10px; }
+  /*** WHAT WE DO ***/
+  .what-we-do {
+    display: block; }
+  .flex-container-description {
+    width: auto;
+    margin-top: 10px;
+    padding: 30px; }
+    .flex-container-description p {
+      font-size: 15px; }
+    .flex-container-description h2 {
+      font-size: 25px; }
+  .what-we-do-button {
+    padding: 10px; }
+    .what-we-do-button a {
+      font-size: 12px; }
+  .what-we-do-examples {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px; }
+    .what-we-do-examples img {
+      width: auto;
+      height: auto;
+      margin: 10px; }
+  /*** OUR VALUES ***/
+  .first-value, .second-value, .third-value {
+    width: auto;
+    padding: 10px 0 10px 0;
+    margin: 0; }
+  .third-value h2 {
+    text-align: center;
+    margin-top: 0; }
+  .third-value p {
+    margin-top: 15px; }
+  /*** SERVICES ***/
+  .carousel-container {
+    margin-top: 25px; }
+  /*** ABOUT US ***/
+  .main-about-us .container-fluid {
+    padding: 0; }
+    .main-about-us .container-fluid .row {
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center; }
+    .main-about-us .container-fluid img {
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .about-us-text {
+    display: block;
+    width: auto;
+    padding: 0;
+    text-align: center; }
+  /*** CONTACT ***/
+  .background-contact {
+    height: 35rem; }
+    .background-contact h1 {
+      font-size: 3rem;
+      padding-top: 6rem; }
+    .background-contact .form-box {
+      padding: 2rem; }
+      .background-contact .form-box #email-input {
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto; }
+      .background-contact .form-box #comment-input {
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto; }
+  /*** FOOTER ***/
+  .footer-links {
+    font-size: 15px; }
+    .footer-links li a {
+      font-size: 10px; }
+    .footer-links img {
+      width: 30px;
+      height: 30px;
+      padding: 5px; }
+    .footer-links .disclosure {
+      display: none; }
+  .footer-social img {
+    padding: 10px; } }
+
+/*** LARGE DEVICES ***/
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /*** HEADER ***/
+  .container-main-banner {
+    margin-top: 15px;
+    height: 35rem; }
+  .logotipo img {
+    width: 50%; }
+  .view-projects-button {
+    padding: 10px; }
+  /*** WHAT WE DO ***/
+  .what-we-do {
+    display: block; }
+  .flex-container-description {
+    width: auto;
+    margin-top: 10px;
+    padding: 30px; }
+    .flex-container-description p {
+      font-size: 15px; }
+    .flex-container-description h2 {
+      font-size: 25px; }
+  .what-we-do-button {
+    padding: 10px; }
+    .what-we-do-button a {
+      font-size: 12px; }
+  .what-we-do-examples {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px; }
+    .what-we-do-examples img {
+      width: auto;
+      height: auto;
+      margin: 10px; }
+  /*** OUR VALUES ***/
+  .first-value, .second-value, .third-value {
+    width: auto;
+    padding: 10px 0 10px 0;
+    margin: 0; }
+  .third-value h2 {
+    text-align: center;
+    margin-top: 0; }
+  .third-value p {
+    margin-top: 15px; }
+  /*** SERVICES ***/
+  .carousel-container {
+    margin-top: 25px; }
+  /*** ABOUT US ***/
+  .main-about-us .container-fluid {
+    padding: 0; }
+    .main-about-us .container-fluid .row {
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center; }
+    .main-about-us .container-fluid img {
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .about-us-text {
+    display: block;
+    width: auto;
+    padding: 0;
+    text-align: center; }
+  /*** CONTACT ***/
+  .background-contact {
+    height: 40rem; }
+    .background-contact h1 {
+      font-size: 4rem;
+      padding-top: 7rem; }
+    .background-contact .form-box {
+      padding: 2rem; }
+      .background-contact .form-box #email-input {
+        width: 25rem;
+        margin-left: auto;
+        margin-right: auto; }
+      .background-contact .form-box #comment-input {
+        width: 25rem;
+        margin-left: auto;
+        margin-right: auto; }
+  /*** FOOTER ***/
+  .footer-links {
+    font-size: 15px; }
+    .footer-links li a {
+      font-size: 10px; }
+    .footer-links img {
+      width: 30px;
+      height: 30px;
+      padding: 5px; }
+    .footer-links .disclosure {
+      display: none; }
+  .footer-social img {
+    padding: 10px; } }

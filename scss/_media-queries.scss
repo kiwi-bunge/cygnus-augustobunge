@@ -4,7 +4,7 @@
 
 /*** FOR PHONES ***/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 490px) {
     
     .main-wrap {
         margin-left: 5px;
@@ -13,10 +13,16 @@
 
     /*** HEADER ***/
 
+    .container-main-banner {
+
+        .logotipo {
+            padding-top: 3rem;
+        }
+    }
 
     .container-main-banner {
         margin-top: 15px;
-        height: 400px;
+        height: 18rem;
     }
 
     .navbar {
@@ -70,7 +76,7 @@
         
         img {
             width: auto;
-            height: 30rem;
+            height: auto;
             margin: 10px;
         }
     }
@@ -106,7 +112,7 @@
             padding: 0;
         }
     }
-    }
+    
 
     .about-us-text {
         display: block;
@@ -118,10 +124,11 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 40rem;
+        height: 30rem;
 
         h1 {
             font-size: 2rem;
+            padding-top: 5rem;
         }
 
         .form-box {
@@ -164,3 +171,688 @@
     .footer-social img {
         padding: 10px;
     }
+}
+
+
+@media only screen and (min-width: 491px) and (max-width: 600px) {
+    
+    .main-wrap {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /*** HEADER ***/
+
+
+    .container-main-banner {
+        margin-top: 15px;
+        height: 25rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .logotipo img {
+        width: 50%;
+    }
+
+    .social-Icons {
+        display: none;
+    }
+
+    .view-projects-button {
+        padding: 10px;
+    }
+
+    /*** WHAT WE DO ***/
+
+    .what-we-do {
+        display: block;
+    }
+
+    .flex-container-description {
+        width: auto;
+        margin-top: 10px;
+        padding: 30px;
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .what-we-do-button {
+        padding: 10px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .what-we-do-examples {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 15px;
+        
+        img {
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+    }
+
+    /*** OUR VALUES ***/
+
+    .first-value, .second-value, .third-value {
+        width: auto;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+
+    /*** SERVICES ***/
+
+    .carousel-container {
+        margin-top: 25px
+    }
+
+    /*** ABOUT US ***/
+
+    .main-about-us .container-fluid {
+        padding: 0;
+        
+        .row {
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+
+    .about-us-text {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    /*** CONTACT ***/
+
+    .background-contact {
+        height: 30rem;
+
+        h1 {
+            font-size: 3rem;
+            padding-top: 5rem;
+        }
+
+        .form-box {
+            padding: 2rem;
+            
+           #email-input {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            #comment-input {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+        }
+    }
+
+    /*** FOOTER ***/
+
+    .footer-links  {
+        font-size: ($font-size)-5;
+
+        li a {
+            font-size: $font-size/2;
+        }
+
+        img {
+            width: $logo-size/2;
+            height: $logo-size/2;
+            padding: 5px;
+        }
+
+        .disclosure {
+            display: none;
+        }
+    }
+
+    .footer-social img {
+        padding: 10px;
+    }
+}
+
+/*** FOR TABLETS & LARGE PHONES ***/
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .main-wrap {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /*** HEADER ***/
+
+
+    .container-main-banner {
+        margin-top: 15px;
+        height: 25rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .logotipo img {
+        width: 50%;
+    }
+
+    .social-Icons {
+        display: none;
+    }
+
+    .view-projects-button {
+        padding: 10px;
+    }
+
+    /*** WHAT WE DO ***/
+
+    .what-we-do {
+        display: block;
+    }
+
+    .flex-container-description {
+        width: auto;
+        margin-top: 10px;
+        padding: 30px;
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .what-we-do-button {
+        padding: 10px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .what-we-do-examples {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 15px;
+        
+        img {
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+    }
+
+    /*** OUR VALUES ***/
+
+    .first-value, .second-value, .third-value {
+        width: auto;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+
+    .third-value {
+        
+        h2 {
+        text-align: center;
+        margin-top: 0;
+        }
+
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    /*** SERVICES ***/
+
+    .carousel-container {
+        margin-top: 25px
+    }
+
+    /*** ABOUT US ***/
+
+    .main-about-us .container-fluid {
+        padding: 0;
+        
+        .row {
+            width: 100%;
+            margin: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+
+    .about-us-text {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    /*** CONTACT ***/
+
+    .background-contact {
+        height: 35rem;
+
+        h1 {
+            font-size: 3rem;
+            padding-top: 6rem;
+        }
+
+        .form-box {
+            padding: 2rem;
+            
+           #email-input {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            #comment-input {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+        }
+    }
+
+    /*** FOOTER ***/
+
+    .footer-links  {
+        font-size: ($font-size)-5;
+
+        li a {
+            font-size: $font-size/2;
+        }
+
+        img {
+            width: $logo-size/2;
+            height: $logo-size/2;
+            padding: 5px;
+        }
+
+        .disclosure {
+            display: none;
+        }
+    }
+
+    .footer-social img {
+        padding: 10px;
+    }
+}
+
+/*** MEDIUM DEVICES ***/
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    /*** HEADER ***/
+
+    .container-main-banner {
+        margin-top: 15px;
+        height: 30rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .logotipo img {
+        width: 50%;
+    }
+
+    .social-Icons {
+        display: none;
+    }
+
+    .view-projects-button {
+        padding: 10px;
+    }
+
+    /*** WHAT WE DO ***/
+
+    .what-we-do {
+        display: block;
+    }
+
+    .flex-container-description {
+        width: auto;
+        margin-top: 10px;
+        padding: 30px;
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .what-we-do-button {
+        padding: 10px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .what-we-do-examples {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 15px;
+        
+        img {
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+    }
+
+    /*** OUR VALUES ***/
+
+    .first-value, .second-value, .third-value {
+        width: auto;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+
+    .third-value {
+        
+        h2 {
+        text-align: center;
+        margin-top: 0;
+        }
+        
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    /*** SERVICES ***/
+
+    .carousel-container {
+        margin-top: 25px
+    }
+
+    /*** ABOUT US ***/
+
+    .main-about-us .container-fluid {
+        padding: 0;
+        
+        .row {
+            width: 100%;
+            margin: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+
+    .about-us-text {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    /*** CONTACT ***/
+
+    .background-contact {
+        height: 35rem;
+
+        h1 {
+            font-size: 3rem;
+            padding-top: 6rem;
+        }
+
+        .form-box {
+            padding: 2rem;
+            
+           #email-input {
+            width: 15rem;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            #comment-input {
+                width: 15rem;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+        }
+    }
+
+    /*** FOOTER ***/
+
+    .footer-links  {
+        font-size: ($font-size)-5;
+
+        li a {
+            font-size: $font-size/2;
+        }
+
+        img {
+            width: $logo-size/2;
+            height: $logo-size/2;
+            padding: 5px;
+        }
+
+        .disclosure {
+            display: none;
+        }
+    }
+
+    .footer-social img {
+        padding: 10px;
+    }
+
+}
+
+/*** LARGE DEVICES ***/
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    /*** HEADER ***/
+
+    .container-main-banner {
+        margin-top: 15px;
+        height: 35rem;
+    }
+
+
+    .logotipo img {
+        width: 50%;
+    }
+
+    .view-projects-button {
+        padding: 10px;
+    }
+
+    /*** WHAT WE DO ***/
+
+    .what-we-do {
+        display: block;
+    }
+
+    .flex-container-description {
+        width: auto;
+        margin-top: 10px;
+        padding: 30px;
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .what-we-do-button {
+        padding: 10px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .what-we-do-examples {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 15px;
+        
+        img {
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+    }
+
+    /*** OUR VALUES ***/
+
+    .first-value, .second-value, .third-value {
+        width: auto;
+        padding: 10px 0 10px 0;
+        margin: 0;
+    }
+
+    .third-value {
+        
+        h2 {
+        text-align: center;
+        margin-top: 0;
+        }
+        
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    /*** SERVICES ***/
+
+    .carousel-container {
+        margin-top: 25px
+    }
+
+    /*** ABOUT US ***/
+
+    .main-about-us .container-fluid {
+        padding: 0;
+        
+        .row {
+            width: 100%;
+            margin: auto;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+
+    .about-us-text {
+        display: block;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    /*** CONTACT ***/
+
+    .background-contact {
+        height: 40rem;
+
+        h1 {
+            font-size: 4rem;
+            padding-top: 7rem;
+        }
+
+        .form-box {
+            padding: 2rem;
+            
+           #email-input {
+            width: 25rem;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            
+            #comment-input {
+                width: 25rem;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+        }
+    }
+
+    /*** FOOTER ***/
+
+    .footer-links  {
+        font-size: ($font-size)-5;
+
+        li a {
+            font-size: $font-size/2;
+        }
+
+        img {
+            width: $logo-size/2;
+            height: $logo-size/2;
+            padding: 5px;
+        }
+
+        .disclosure {
+            display: none;
+        }
+    }
+
+    .footer-social img {
+        padding: 10px;
+    }
+
+}
+
+
+    

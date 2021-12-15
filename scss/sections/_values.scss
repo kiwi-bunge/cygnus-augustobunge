@@ -23,6 +23,7 @@
     margin: 20px;
 
     h2 {
+        text-align: center;
         margin: 20px;
     }
 
@@ -30,4 +31,15 @@
         text-align: center;
         margin: 30px;
     }
+}
+.third-value {
+
+    h2 {
+        text-align: center;
+        margin-top: 0;
+        }
+        
+        p {
+            margin-top: 15px;
+        }
 }

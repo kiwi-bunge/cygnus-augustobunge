@@ -47,6 +47,7 @@ a {
 .menu-links {
     font-size: $font-size;
     text-transform: uppercase;
+    text-align: end;
 }
 
 .social-Icons {
@@ -54,7 +55,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end !important ;
-    margin-right: 40px;
 
     a {
         padding: 10px;
