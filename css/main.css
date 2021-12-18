@@ -338,12 +338,12 @@ a {
     .what-we-do-button a {
       font-size: 12px; }
   .what-we-do-examples {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-align: center;
     padding-top: 15px; }
     .what-we-do-examples img {
-      width: auto;
-      height: auto;
+      width: 300px;
+      height: 400px;
       margin: 10px; }
   /*** OUR VALUES ***/
   .first-value, .second-value, .third-value {
