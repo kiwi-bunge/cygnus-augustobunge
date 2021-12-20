@@ -3,5 +3,47 @@
 /******************/
 
 .main-services {
-    margin-bottom: 50px; 
+    margin-top: 50px;
+    display: block;
+
+    .services-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h2 {
+        font-size: 40px;
+        margin: 10px;
+        align-self: center;
+        }
+
+        img {
+            width: 5%;
+            padding: 30px;
+            }   
+        }
+    
+    .description-services {
+        display: flex;
+        flex-direction: row;
+        margin: 75px 0px 75px 0px;
+
+        img {
+            width: 600px;
+            height: 400px;
+            padding: 0px 20px 0px 20px;
+        }
+
+        .description-text {
+            align-self: center;
+            text-align: center;
+            font-size: 25px;
+
+            h3 {
+                margin-bottom: 35px;
+            }
+        }
+    }
+
 }
