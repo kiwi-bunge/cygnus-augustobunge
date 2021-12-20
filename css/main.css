@@ -405,7 +405,9 @@ a {
       padding: 5px;
       margin: 5px; }
       .main-services .description-services img {
-        width: 285px; }
+        width: 285px;
+        height: 150px;
+        padding: 0; }
       .main-services .description-services .description-text {
         font-size: 15px;
         padding: 15px; }
@@ -530,7 +532,9 @@ a {
       padding: 5px;
       margin: 5px; }
       .main-services .description-services img {
-        width: 450px; }
+        width: 450px;
+        height: 250px;
+        padding: 0; }
       .main-services .description-services .description-text {
         font-size: 15px;
         padding: 15px; }
