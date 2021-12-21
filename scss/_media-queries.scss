@@ -173,7 +173,7 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 30rem;
+        height: 60rem;
 
         h1 {
             font-size: 2rem;
@@ -193,6 +193,38 @@
                 width: auto;
                 margin-left: auto;
                 margin-right: auto; 
+            }
+        }
+
+        .description-contact {
+            display: block;
+            margin-top: 80px;
+            align-items: center;
+    
+            .container-contact {
+                width: 250px;
+                padding: 20px;
+                margin: 20px;
+                background-color: burlywood;
+                opacity: 90%;
+                border: solid 2px white;
+                align-items: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+    
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    color: black;
+    
+                    a {
+                        color: white;
+                        font: bold;
+                    }
+                }
             }
         }
     }

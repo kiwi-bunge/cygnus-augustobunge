@@ -266,13 +266,32 @@ a {
   background-size: cover;
   background-position: center;
   height: 60rem;
-  margin-bottom: 50px;
   /***** CONTACT FORM *****/ }
   .background-contact h1 {
     text-align: center;
     font-size: 5rem;
     color: white;
     padding-top: 15rem; }
+  .background-contact .description-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px; }
+    .background-contact .description-contact .container-contact {
+      width: 300px;
+      padding: 20px;
+      background-color: burlywood;
+      opacity: 75%;
+      border: solid 2px white;
+      align-items: center;
+      text-align: center; }
+      .background-contact .description-contact .container-contact h3 {
+        margin-bottom: 20px; }
+      .background-contact .description-contact .container-contact p {
+        color: black; }
+        .background-contact .description-contact .container-contact p a {
+          color: white;
+          font: bold; }
   .background-contact .form-box {
     display: flex;
     flex-direction: column;
@@ -431,7 +450,7 @@ a {
     text-align: center; }
   /*** CONTACT ***/
   .background-contact {
-    height: 30rem; }
+    height: 60rem; }
     .background-contact h1 {
       font-size: 2rem;
       padding-top: 5rem; }
@@ -445,6 +464,28 @@ a {
         width: auto;
         margin-left: auto;
         margin-right: auto; }
+    .background-contact .description-contact {
+      display: block;
+      margin-top: 80px;
+      align-items: center; }
+      .background-contact .description-contact .container-contact {
+        width: 250px;
+        padding: 20px;
+        margin: 20px;
+        background-color: burlywood;
+        opacity: 90%;
+        border: solid 2px white;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .background-contact .description-contact .container-contact h3 {
+          margin-bottom: 20px; }
+        .background-contact .description-contact .container-contact p {
+          color: black; }
+          .background-contact .description-contact .container-contact p a {
+            color: white;
+            font: bold; }
   /*** FOOTER ***/
   .footer-links {
     font-size: 15px; }
