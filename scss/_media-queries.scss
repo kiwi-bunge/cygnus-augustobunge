@@ -146,19 +146,26 @@
 
     /*** ABOUT US ***/
 
-    .main-about-us .container-fluid {
-        padding: 0;
-        
-        .row {
-            width: 100%;
-            margin: auto;
-            justify-content: center;
-        }
 
-        img {
-            display: block;
-            margin: 0;
+
+    .main-about-us {
+        padding-top: 20px;
+    
+        .container-fluid {
             padding: 0;
+            
+            .row {
+                width: 100%;
+                margin: auto;
+                justify-content: center;
+            }
+
+            img {
+                display: block;
+                margin: 0;
+                padding: 0;
+                height: 25rem;
+            }
         }
     }
     
@@ -420,7 +427,7 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 30rem;
+        height: 1200px;
 
         h1 {
             font-size: 3rem;
@@ -442,6 +449,38 @@
                 margin-right: auto; 
             }
         }
+        .description-contact {
+            display: block;
+            margin-top: 80px;
+            align-items: center;
+    
+            .container-contact {
+                width: 250px;
+                padding: 20px;
+                margin: 20px;
+                background-color: burlywood;
+                opacity: 90%;
+                border: solid 2px white;
+                align-items: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+    
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    color: black;
+    
+                    a {
+                        color: white;
+                        font: bold;
+                    }
+                }
+            }
+        }
+
     }
 
     /*** FOOTER ***/
@@ -482,7 +521,6 @@
 
 
     .container-main-banner {
-        margin-top: 15px;
         height: 25rem;
     }
 
@@ -545,7 +583,6 @@
     /*** OUR VALUES ***/
 
     .first-value, .second-value, .third-value {
-        width: auto;
         padding: 10px 0 10px 0;
         margin: 0;
     }
@@ -563,10 +600,6 @@
     }
 
     /*** SERVICES ***/
-
-    .carousel-container {
-        margin-top: 25px
-    }
 
     .main-services {
         text-align: center;
@@ -648,7 +681,7 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 35rem;
+        height: 1000px;
 
         h1 {
             font-size: 3rem;
@@ -668,6 +701,40 @@
                 width: auto;
                 margin-left: auto;
                 margin-right: auto; 
+            }
+        }
+
+        .description-contact {
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            align-items: center;
+    
+            .container-contact {
+                width: 250px;
+                height: 200px;
+                padding: 20px;
+                margin: 20px;
+                background-color: burlywood;
+                opacity: 90%;
+                border: solid 2px white;
+                align-items: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+    
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    color: black;
+    
+                    a {
+                        color: white;
+                        font: bold;
+                    }
+                }
             }
         }
     }
@@ -704,7 +771,6 @@
     /*** HEADER ***/
 
     .container-main-banner {
-        margin-top: 15px;
         height: 30rem;
     }
 
@@ -786,10 +852,6 @@
 
     /*** SERVICES ***/
 
-    .carousel-container {
-        margin-top: 25px
-    }
-
     .main-services {
         text-align: center;
         padding: 0;
@@ -870,7 +932,7 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 35rem;
+        height: 1000px;
 
         h1 {
             font-size: 3rem;
@@ -890,6 +952,40 @@
                 width: 15rem;
                 margin-left: auto;
                 margin-right: auto; 
+            }
+        }
+
+        .description-contact {
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            align-items: center;
+    
+            .container-contact {
+                width: 250px;
+                height: 200px;
+                padding: 20px;
+                margin: 20px;
+                background-color: burlywood;
+                opacity: 90%;
+                border: solid 2px white;
+                align-items: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+    
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    color: black;
+    
+                    a {
+                        color: white;
+                        font: bold;
+                    }
+                }
             }
         }
     }
@@ -927,7 +1023,6 @@
     /*** HEADER ***/
 
     .container-main-banner {
-        margin-top: 15px;
         height: 35rem;
     }
 
@@ -1002,9 +1097,6 @@
 
     /*** SERVICES ***/
 
-    .carousel-container {
-        margin-top: 25px
-    }
 
     .main-services {
         text-align: center;
@@ -1044,13 +1136,11 @@
                 img {
                     width: 500px;
                     height: 300px;
+                    align-self: center;
                 }
         
-                .description-text {
-                    align-self: center;
-                    text-align: center;
-                    padding: 0px 15px 0px 15px;
-                    font-size: 25px;
+                .description-text {   
+                    font-size: 20px;
         
                     h3 {
                         margin-bottom: 35px;
@@ -1089,7 +1179,7 @@
     /*** CONTACT ***/
 
     .background-contact {
-        height: 40rem;
+        height: 1000px;
 
         h1 {
             font-size: 4rem;
@@ -1109,6 +1199,40 @@
                 width: 25rem;
                 margin-left: auto;
                 margin-right: auto; 
+            }
+        }
+
+        .description-contact {
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            align-items: center;
+    
+            .container-contact {
+                width: 250px;
+                height: 200px;
+                padding: 20px;
+                margin: 20px;
+                background-color: burlywood;
+                opacity: 90%;
+                border: solid 2px white;
+                align-items: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+    
+                h3 {
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    color: black;
+    
+                    a {
+                        color: white;
+                        font: bold;
+                    }
+                }
             }
         }
     }
@@ -1137,6 +1261,32 @@
         padding: 10px;
     }
 
+}
+
+@media only screen and (min-width: 1800px) {
+    
+    /*** HEADER ***/
+
+    .logotipo img {
+        width: 900px;
+    }
+
+    /*** SERVICES***/
+
+    .main-services {
+
+        .description-services {
+            justify-content: space-around;
+
+            img {
+                width: 800px;
+            } 
+            .description-text {
+                width: 800px;
+            }
+        }
+    }
+          
 }
 
 

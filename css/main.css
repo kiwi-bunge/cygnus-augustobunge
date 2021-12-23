@@ -79,7 +79,7 @@ a {
   background-position: center;
   background-color: rgba(255, 255, 255, 0.233);
   background-blend-mode: color;
-  height: 45rem;
+  height: 50rem;
   width: auto;
   align-items: center;
   flex-direction: column; }
@@ -149,7 +149,7 @@ a {
   padding-top: 50px;
   padding-bottom: 25px; }
   .what-we-do-examples img {
-    width: 20rem;
+    width: 25rem;
     margin: 5px;
     transition: all 1s; }
 
@@ -203,8 +203,7 @@ a {
 /*****SERVICES*****/
 /******************/
 .main-services {
-  margin-top: 50px;
-  display: block; }
+  margin-top: 50px; }
   .main-services .services-heading {
     display: flex;
     flex-direction: row;
@@ -281,7 +280,7 @@ a {
       width: 300px;
       padding: 20px;
       background-color: burlywood;
-      opacity: 75%;
+      opacity: 90%;
       border: solid 2px white;
       align-items: center;
       text-align: center; }
@@ -433,16 +432,19 @@ a {
         .main-services .description-services .description-text h3 {
           margin-bottom: 20px; }
   /*** ABOUT US ***/
-  .main-about-us .container-fluid {
-    padding: 0; }
-    .main-about-us .container-fluid .row {
-      width: 100%;
-      margin: auto;
-      justify-content: center; }
-    .main-about-us .container-fluid img {
-      display: block;
-      margin: 0;
+  .main-about-us {
+    padding-top: 20px; }
+    .main-about-us .container-fluid {
       padding: 0; }
+      .main-about-us .container-fluid .row {
+        width: 100%;
+        margin: auto;
+        justify-content: center; }
+      .main-about-us .container-fluid img {
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 25rem; }
   .about-us-text {
     display: block;
     width: auto;
@@ -599,7 +601,7 @@ a {
     text-align: center; }
   /*** CONTACT ***/
   .background-contact {
-    height: 30rem; }
+    height: 1200px; }
     .background-contact h1 {
       font-size: 3rem;
       padding-top: 5rem; }
@@ -613,6 +615,28 @@ a {
         width: auto;
         margin-left: auto;
         margin-right: auto; }
+    .background-contact .description-contact {
+      display: block;
+      margin-top: 80px;
+      align-items: center; }
+      .background-contact .description-contact .container-contact {
+        width: 250px;
+        padding: 20px;
+        margin: 20px;
+        background-color: burlywood;
+        opacity: 90%;
+        border: solid 2px white;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .background-contact .description-contact .container-contact h3 {
+          margin-bottom: 20px; }
+        .background-contact .description-contact .container-contact p {
+          color: black; }
+          .background-contact .description-contact .container-contact p a {
+            color: white;
+            font: bold; }
   /*** FOOTER ***/
   .footer-links {
     font-size: 15px; }
@@ -634,7 +658,6 @@ a {
     margin-right: 5px; }
   /*** HEADER ***/
   .container-main-banner {
-    margin-top: 15px;
     height: 25rem; }
   .navbar {
     display: block; }
@@ -669,7 +692,6 @@ a {
       margin: 10px; }
   /*** OUR VALUES ***/
   .first-value, .second-value, .third-value {
-    width: auto;
     padding: 10px 0 10px 0;
     margin: 0; }
   .third-value h2 {
@@ -678,8 +700,6 @@ a {
   .third-value p {
     margin-top: 15px; }
   /*** SERVICES ***/
-  .carousel-container {
-    margin-top: 25px; }
   .main-services {
     text-align: center;
     padding: 0;
@@ -731,7 +751,7 @@ a {
     text-align: center; }
   /*** CONTACT ***/
   .background-contact {
-    height: 35rem; }
+    height: 1000px; }
     .background-contact h1 {
       font-size: 3rem;
       padding-top: 6rem; }
@@ -745,6 +765,30 @@ a {
         width: auto;
         margin-left: auto;
         margin-right: auto; }
+    .background-contact .description-contact {
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+      align-items: center; }
+      .background-contact .description-contact .container-contact {
+        width: 250px;
+        height: 200px;
+        padding: 20px;
+        margin: 20px;
+        background-color: burlywood;
+        opacity: 90%;
+        border: solid 2px white;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .background-contact .description-contact .container-contact h3 {
+          margin-bottom: 20px; }
+        .background-contact .description-contact .container-contact p {
+          color: black; }
+          .background-contact .description-contact .container-contact p a {
+            color: white;
+            font: bold; }
   /*** FOOTER ***/
   .footer-links {
     font-size: 15px; }
@@ -763,7 +807,6 @@ a {
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   /*** HEADER ***/
   .container-main-banner {
-    margin-top: 15px;
     height: 30rem; }
   .navbar {
     display: block; }
@@ -807,8 +850,6 @@ a {
   .third-value p {
     margin-top: 15px; }
   /*** SERVICES ***/
-  .carousel-container {
-    margin-top: 25px; }
   .main-services {
     text-align: center;
     padding: 0;
@@ -860,7 +901,7 @@ a {
     text-align: center; }
   /*** CONTACT ***/
   .background-contact {
-    height: 35rem; }
+    height: 1000px; }
     .background-contact h1 {
       font-size: 3rem;
       padding-top: 6rem; }
@@ -874,6 +915,30 @@ a {
         width: 15rem;
         margin-left: auto;
         margin-right: auto; }
+    .background-contact .description-contact {
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+      align-items: center; }
+      .background-contact .description-contact .container-contact {
+        width: 250px;
+        height: 200px;
+        padding: 20px;
+        margin: 20px;
+        background-color: burlywood;
+        opacity: 90%;
+        border: solid 2px white;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .background-contact .description-contact .container-contact h3 {
+          margin-bottom: 20px; }
+        .background-contact .description-contact .container-contact p {
+          color: black; }
+          .background-contact .description-contact .container-contact p a {
+            color: white;
+            font: bold; }
   /*** FOOTER ***/
   .footer-links {
     font-size: 15px; }
@@ -892,7 +957,6 @@ a {
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   /*** HEADER ***/
   .container-main-banner {
-    margin-top: 15px;
     height: 35rem; }
   .logotipo img {
     width: 50%; }
@@ -932,8 +996,6 @@ a {
   .third-value p {
     margin-top: 15px; }
   /*** SERVICES ***/
-  .carousel-container {
-    margin-top: 25px; }
   .main-services {
     text-align: center;
     padding: 0;
@@ -961,12 +1023,10 @@ a {
       margin-bottom: 3rem; }
       .main-services .description-services img {
         width: 500px;
-        height: 300px; }
+        height: 300px;
+        align-self: center; }
       .main-services .description-services .description-text {
-        align-self: center;
-        text-align: center;
-        padding: 0px 15px 0px 15px;
-        font-size: 25px; }
+        font-size: 20px; }
         .main-services .description-services .description-text h3 {
           margin-bottom: 35px; }
   /*** ABOUT US ***/
@@ -988,7 +1048,7 @@ a {
     text-align: center; }
   /*** CONTACT ***/
   .background-contact {
-    height: 40rem; }
+    height: 1000px; }
     .background-contact h1 {
       font-size: 4rem;
       padding-top: 7rem; }
@@ -1002,6 +1062,30 @@ a {
         width: 25rem;
         margin-left: auto;
         margin-right: auto; }
+    .background-contact .description-contact {
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+      align-items: center; }
+      .background-contact .description-contact .container-contact {
+        width: 250px;
+        height: 200px;
+        padding: 20px;
+        margin: 20px;
+        background-color: burlywood;
+        opacity: 90%;
+        border: solid 2px white;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; }
+        .background-contact .description-contact .container-contact h3 {
+          margin-bottom: 20px; }
+        .background-contact .description-contact .container-contact p {
+          color: black; }
+          .background-contact .description-contact .container-contact p a {
+            color: white;
+            font: bold; }
   /*** FOOTER ***/
   .footer-links {
     font-size: 15px; }
@@ -1015,3 +1099,15 @@ a {
       display: none; }
   .footer-social img {
     padding: 10px; } }
+
+@media only screen and (min-width: 1800px) {
+  /*** HEADER ***/
+  .logotipo img {
+    width: 900px; }
+  /*** SERVICES***/
+  .main-services .description-services {
+    justify-content: space-around; }
+    .main-services .description-services img {
+      width: 800px; }
+    .main-services .description-services .description-text {
+      width: 800px; } }
